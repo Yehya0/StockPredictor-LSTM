@@ -38,26 +38,21 @@ You can install the dependencies using pip:
 ```bash
 pip install pandas numpy yfinance scikit-learn matplotlib tensorflow
 ```
-Usage
 
-    Clone the repository:
+# Usage
 
-    bash
+Clone the repository:
 
-git clone https://github.com/yourusername/StockPredictor-LSTM.git
-cd StockPredictor-LSTM
+    git clone https://github.com/yourusername/StockPredictor-LSTM.git
+    cd StockPredictor-LSTM
 
 Navigate to the notebooks directory:
 
-bash
-
-cd notebooks
+    cd notebooks
 
 Open the Jupyter notebook:
 
-bash
-
-jupyter notebook StockPredictor.ipynb
+    jupyter notebook StockPredictor.ipynb
 
 Run the notebook:
 
@@ -65,3 +60,17 @@ Run the notebook:
     Preprocess the data: The notebook preprocesses the data by calculating technical indicators (RSI, MACD), scaling the data, and preparing it for the LSTM model.
     Train the model: The notebook trains an LSTM model on the processed data.
     Make predictions: The notebook uses the trained model to predict future stock prices and visualize the results.
+
+Results
+Sample Plots
+Close Prices
+
+RSI
+
+MACD
+
+Future Predictions
+
+Conclusion
+
+In conclusion, this project demonstrates how LSTM neural networks can be utilized to predict stock prices. The model was trained on historical stock price data and evaluated on its ability to forecast future prices.
