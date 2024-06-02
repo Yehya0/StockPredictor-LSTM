@@ -60,7 +60,6 @@ Run the notebook:
     Preprocess the data: The notebook preprocesses the data by calculating technical indicators (RSI, MACD), scaling the data, and preparing it for the LSTM model.
     Train the model: The notebook trains an LSTM model on the processed data.
     Make predictions: The notebook uses the trained model to predict future stock prices and visualize the results.
-Sure, here’s a more professionally formatted section for the "Results of NVIDIA":
 
 ---
 
